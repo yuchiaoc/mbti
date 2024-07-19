@@ -13,6 +13,8 @@
 		EFD5827E2C4620B500EC798C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFD5827D2C4620B500EC798C /* Base */; };
 		EFD582802C4620B600EC798C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFD5827F2C4620B600EC798C /* Assets.xcassets */; };
 		EFD582832C4620B600EC798C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = EFD582822C4620B600EC798C /* Base */; };
+		EFE188262C4A0F4000FE4EA3 /* EmotionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE188252C4A0F4000FE4EA3 /* EmotionalViewController.swift */; };
+		EFE188282C4A119200FE4EA3 /* RationalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE188272C4A119200FE4EA3 /* RationalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EFD5827F2C4620B600EC798C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFD582822C4620B600EC798C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EFD582842C4620B600EC798C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFE188252C4A0F4000FE4EA3 /* EmotionalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionalViewController.swift; sourceTree = "<group>"; };
+		EFE188272C4A119200FE4EA3 /* RationalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RationalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				EFD582762C4620B500EC798C /* AppDelegate.swift */,
 				EFD582782C4620B500EC798C /* SceneDelegate.swift */,
 				EFD5827A2C4620B500EC798C /* ViewController.swift */,
+				EFE188252C4A0F4000FE4EA3 /* EmotionalViewController.swift */,
 				EFD5827C2C4620B500EC798C /* Main.storyboard */,
+				EFE188272C4A119200FE4EA3 /* RationalViewController.swift */,
 				EFD5827F2C4620B600EC798C /* Assets.xcassets */,
 				EFD582812C4620B600EC798C /* LaunchScreen.storyboard */,
 				EFD582842C4620B600EC798C /* Info.plist */,
@@ -138,9 +144,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFE188282C4A119200FE4EA3 /* RationalViewController.swift in Sources */,
 				EFD5827B2C4620B500EC798C /* ViewController.swift in Sources */,
 				EFD582772C4620B500EC798C /* AppDelegate.swift in Sources */,
 				EFD582792C4620B500EC798C /* SceneDelegate.swift in Sources */,
+				EFE188262C4A0F4000FE4EA3 /* EmotionalViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
